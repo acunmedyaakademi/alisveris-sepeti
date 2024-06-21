@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alışveriş Sepeti</title>
+  <link rel="stylesheet" href="assets/css/alisveris.css">
+  <script src="assets/js/alisveris.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <form class="basketAdd">
+      <label for="name"> Ürün Adı</label>
+      <input type="text" name="name" placeholder="Ürün Adı Giriniz">
+
+      <label for="price"> Ürün Fiyatı</label>
+      <input type="number" name="price" placeholder="Ürün Fiyatı Giriniz">
+
+      <label for="color"> Ürün Rengi</label>
+      <input type="text" name="color" placeholder="Ürün REngi Giriniz">
+
+      <label for="category">Ürün Kategorisi Seçiniz</label>
+      <select name="category">
+        <option disabled selected value="">Bir kategori seçiniz</option>
+        <option value="Elektronik">Elektronik</option>
+        <option value="Giyim">Giyim</option>
+        <option value="Teknoloji">Teknoloji</option>
+        <option value="Ev ve Mutfak">Ev ve Mutfak</option>
+        <option value="Aksesuarlar">Aksesuarlar</option>
+      </select>
+
+      <button type="submit">Ürün Ekle</button>
+    </form>
+    <button class="clearStorage">Storage i temizle</button>
+
+    <div class="basket"></div>
+
+
+    <h1>Ürünler</h1>
+    <div class="productList">
+    </div>
+
+
+
+  </div>
+</body>
+
+</html>
