@@ -60,8 +60,8 @@ function render() {
     }
   }
 
-  basket.innerHTML = `<p><b>Toplam:</b> ${sepetTutari}</p> <br/>
-  <p><b>Adedi:</b> ${urunAdedi}</p>`;
+  basket.innerHTML = `<p><b>Toplam:</b> ${sepetTutari} $</p> <br/>
+  <p><b>Adet:</b> ${urunAdedi}</p>`;
 }
 
 function save() {
